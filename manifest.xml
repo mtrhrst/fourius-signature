@@ -5,13 +5,13 @@
   xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="MailApp">
   <Id>{C341AD31-BF7A-4C1D-99F1-D2E5896BEB0A}</Id>
   <Version>1.0</Version>
-  <ProviderName>Contoso</ProviderName>
-  <DefaultLocale>en-us</DefaultLocale>
-  <DisplayName DefaultValue="PnP set signature sample"/>
-  <Description DefaultValue="Insert your signature with ease."/>
+  <ProviderName>Fourius</ProviderName>
+  <DefaultLocale>de-de</DefaultLocale>
+  <DisplayName DefaultValue="Fourius Signature Tool"/>
+  <Description DefaultValue="Add company signature with ease!"/>
   <IconUrl DefaultValue="https://mtrhrst.github.io/fourius-signature/assets/final_logo.png"/>
   <HighResolutionIconUrl DefaultValue="https://mtrhrst.github.io/fourius-signature/assets/final_logo.jpg"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+  <SupportUrl DefaultValue="https://github.com/mtrhrst/fourius-signature/blob/main/README.md"/>
 
   <Requirements>
     <Sets DefaultMinVersion="1.1">
@@ -125,10 +125,10 @@
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="residGL0" DefaultValue="Signature Injector"></bt:String>
-          <bt:String id="residStr0" DefaultValue="Set my signature"></bt:String>
+          <bt:String id="residStr0" DefaultValue="Set Fourius Signature"></bt:String>
         </bt:ShortStrings>
         <bt:LongStrings>
-          <bt:String id="residAppDesc" DefaultValue="Insert your signature with ease."></bt:String>
+          <bt:String id="residAppDesc" DefaultValue="Add company signature with ease."></bt:String>
           <bt:String id="residTT0" DefaultValue="Opens a pane displaying all available properties."></bt:String>
         </bt:LongStrings>
       </Resources>
