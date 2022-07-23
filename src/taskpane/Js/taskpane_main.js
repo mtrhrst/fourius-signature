@@ -2,7 +2,7 @@
 // Licensed under the MIT License.
 
 
-const logo = "https://mtrhrst.github.io/fourius-signature/assets/sample-logo.png";
+const logo = "https://mtrhrst.github.io/fourius-signature/assets/logo.png";
 
 function save_user_settings_to_roaming_settings()
 {
