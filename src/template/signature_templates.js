@@ -1,7 +1,4 @@
-// Copyright (c) Microsoft Corporation.
-// Licensed under the MIT License.
-
-export const get_template_A_str = (user_info, logo) => {
+function get_template_A_str (user_info, logo) {
     return `
     <table style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 10pt;">
         <tr>
@@ -43,7 +40,7 @@ export const get_template_A_str = (user_info, logo) => {
     `;
 }
 
-export const get_template_B_str = (user_info, logo) => {
+function get_template_B_str (user_info, logo) {
     return `
     <table style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 10pt;">
         <tr>
@@ -71,7 +68,7 @@ export const get_template_B_str = (user_info, logo) => {
     `;
 }
 
-export const get_template_C_str = (user_info, logo) => {
+function get_template_C_str (user_info, logo) {
     return `
     <table style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 10pt;">
         <tr>
