@@ -3,8 +3,6 @@
 
 let _user_info;
 
-const logo = "https://mtrhrst.github.io/fourius-signature/assets/sample-logo.png"
-
 Office.initialize = function(reason)
 {
   on_initialization_complete();
@@ -17,7 +15,6 @@ function on_initialization_complete()
 		function()
 		{
       lazy_init_user_info();
-      populate_templates();
       show_signature_settings();
 		}
 	);
@@ -38,32 +35,6 @@ function lazy_init_user_info()
       console.log("Unable to retrieve 'user_info' from localStorage.");
     }
   }
-}
-
-
-function populate_templates()
-{
-  populate_template_A();
-  populate_template_B();
-  populate_template_C();
-}
-
-function populate_template_A()
-{
-  let str = get_template_A_str(_user_info, logo);
-  $("#box_1").html(str);
-}
-
-function populate_template_B()
-{
-  let str = get_template_B_str(_user_info, logo);
-  $("#box_2").html(str);
-}
-
-function populate_template_C()
-{
-  let str = get_template_C_str(_user_info, logo);
-  $("#box_3").html(str);
 }
 
 function show_signature_settings()

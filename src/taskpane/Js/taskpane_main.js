@@ -1,6 +1,9 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
+
+const logo = "https://mtrhrst.github.io/fourius-signature/assets/sample-logo.png";
+
 function save_user_settings_to_roaming_settings()
 {
   Office.context.roamingSettings.saveAsync(function (asyncResult)
@@ -35,7 +38,6 @@ function save_signature_settings()
 	Office.context.roamingSettings.set('newMail', $("#new_mail option:selected").val());
 	Office.context.roamingSettings.set('reply', $("#reply option:selected").val());
 	Office.context.roamingSettings.set('forward', $("#forward option:selected").val());
-
 	Office.context.roamingSettings.set('override_olk_signature', $("#checkbox_sig").prop('checked'));
 
 	save_user_settings_to_roaming_settings();
@@ -100,7 +102,7 @@ function insert_signature(str)
 
 function test_template_A()
 {
-	let str = get_template_A_str(_user_info);
+	let str = get_template_A_str(_user_info, logo);
 	console.log("test_template_A - " + str);
 
 	insert_signature(str);
@@ -108,7 +110,7 @@ function test_template_A()
 
 function test_template_B()
 {
-	let str = get_template_B_str(_user_info);
+	let str = get_template_B_str(_user_info, logo);
 	console.log("test_template_B - " + str);
 
 	insert_signature(str);
@@ -116,7 +118,7 @@ function test_template_B()
 
 function test_template_C()
 {
-	let str = get_template_C_str(_user_info);
+	let str = get_template_C_str(_user_info, logo);
 	console.log("test_template_C - " + str);
 
 	insert_signature(str);
