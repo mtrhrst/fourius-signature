@@ -1,6 +1,6 @@
 function get_template_A_str (user_info, logo) {
     return `
-    <table style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 10pt;">
+    <table style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 11pt;">
         <tr>
             <td style="padding: 0 15px 0 0">
                 <img src="${logo}">
@@ -24,7 +24,7 @@ function get_template_A_str (user_info, logo) {
         
     </table>
 
-    <div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 10pt;">
+    <div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 11pt;">
         <p>Datenschutzhinweise unter <a style="color:black;" href="https://www.fourius.com/privacy">www.fourius.com/privacy</a></p>
 
         <div style="font-size: 9pt;">
@@ -42,7 +42,7 @@ function get_template_A_str (user_info, logo) {
 
 function get_template_B_str (user_info, logo) {
     return `
-    <table style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 10pt;">
+    <table style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 11pt;">
         <tr>
             <td style="padding: 0 15px 0 0">
                 <img src="${logo}">
@@ -70,7 +70,7 @@ function get_template_B_str (user_info, logo) {
 
 function get_template_C_str (user_info, logo) {
     return `
-    <table style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 10pt;">
+    <table style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 11pt;">
         <tr>
             <td style="padding: 0 15px 0 0">
                 <img src="${logo}">
