@@ -14,7 +14,7 @@ function get_template_A_str (user_info, logo) {
                     <a style="color:black; text-decoration:none;" href="mailto:${user_info.email}">${user_info.email}</a><br/>
                 </p>
                 <p style="margin: 10px 0">
-                    Fourius Rechtsanwälte Kuhl Schuba Zipse PartG mbB<br/>
+                    Fourius Partner Ehlenz Kuhl Schuba Zipse Rechtsanwälte mbB<br/>
                     Thurn-und-Taxis-Platz 6 • 60313 Frankfurt<br/>
                     AG Frankfurt PR 0000<br/>
                     <a style="color:black; text-decoration:none;" href="">www.fourius.com</a><br/>
@@ -56,7 +56,7 @@ function get_template_B_str (user_info, logo) {
                     <a style="color:black; text-decoration:none;" href="mailto:${user_info.email}">${user_info.email}</a><br/>
                 </p>
                 <p style="margin: 10px 0">
-                    Fourius Rechtsanwälte Kuhl Schuba Zipse PartG mbB<br/>
+                    Fourius Partner Ehlenz Kuhl Schuba Zipse Rechtsanwälte mbB<br/>
                     Thurn-und-Taxis-Platz 6 • 60313 Frankfurt<br/>
                     AG Frankfurt PR 0000<br/>
                     <a style="color:black; text-decoration:none;" href="">www.fourius.com</a><br/>
